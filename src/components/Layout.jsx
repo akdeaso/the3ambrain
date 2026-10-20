@@ -3,7 +3,7 @@ import siteConfig from '../site.config.js'
 
 export default function Layout({ children, currentPage }) {
   // Use import.meta.env.BASE_URL which Vite provides (defaults to base in vite.config)
-  const baseUrl = import.meta.env?.BASE_URL || '/the3ambrain-studio/'
+  const baseUrl = import.meta.env?.BASE_URL || '/the3ambrain/'
   const homeUrl = baseUrl
   const privacyUrl = `${baseUrl}privacy.html`
   const termsUrl = `${baseUrl}terms.html`
