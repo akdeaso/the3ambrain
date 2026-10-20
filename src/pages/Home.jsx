@@ -3,7 +3,7 @@ import Layout from '../components/Layout.jsx'
 import siteConfig from '../site.config.js'
 
 export default function Home() {
-  const baseUrl = import.meta.env?.BASE_URL || '/the3ambrain-studio/'
+  const baseUrl = import.meta.env?.BASE_URL || '/the3ambrain/'
   const privacyUrl = `${baseUrl}privacy.html`
 
   return (
