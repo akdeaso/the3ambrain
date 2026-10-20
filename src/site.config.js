@@ -7,6 +7,7 @@ export const siteConfig = {
   effectiveDate: 'October 20, 2026',
   year: '2026',
   channelUrl: 'https://www.youtube.com/@the3ambrain',
+  googleCloudProjectId: 'youtube-api-364002',
   hasLogo: true,
 }
 

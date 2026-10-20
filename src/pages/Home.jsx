@@ -54,6 +54,9 @@ export default function Home() {
           </li>
         </ul>
         <p>
+          Google Cloud Project ID: <code>{siteConfig.googleCloudProjectId}</code>
+        </p>
+        <p>
           Data accessed through Google APIs is never shared, never sold, never disclosed to third parties, and never used for advertising. For full details on our data protection practices, please read our comprehensive <a href={privacyUrl}>Privacy Policy</a>.
         </p>
 
